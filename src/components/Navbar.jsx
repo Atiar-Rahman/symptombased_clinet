@@ -9,15 +9,7 @@ const Navbar = () => {
         <li><NavLink to='/knowledge'>Knowledge</NavLink></li>
         <li><NavLink to='/detection'>Detection</NavLink></li>
         <li><NavLink to='/bmi'>BMI Calc</NavLink></li>
-        <li>
-            <details>
-                <summary>Parent</summary>
-                <ul className="p-2 bg-base-100 w-40 z-1">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                </ul>
-            </details>
-        </li>
+        <li><NavLink to='/blog'>blog</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm">
