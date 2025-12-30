@@ -1,6 +1,6 @@
 
-import { NavLink } from 'react-router';
-
+import { Link, NavLink } from 'react-router';
+import { FcBusinessman } from "react-icons/fc";
 
 const Navbar = () => {  
     const navLinks = <>
@@ -32,7 +32,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <Link to={'/'} className="btn btn-ghost text-xl">Multiple-Cancer-Risk-Analysis</Link >
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Button</a>
+               <FcBusinessman className='w-20 h-20' />
             </div>
         </div>
     );
