@@ -6,7 +6,7 @@ const Navbar = () => {
       const linkClass = ({ isActive }) =>
     `px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300
      ${isActive
-        ? "bg-primary text-white shadow-md"
+        ? "bg-primary text-red shadow-md"
         : "text-gray-600 hover:bg-primary/10 hover:text-primary"
      }`;
 
